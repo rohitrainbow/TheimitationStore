@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginBottom="0dp"
     android:layout_marginTop="0dp"
     android:focusableInTouchMode="true"
@@ -49,4 +50,16 @@
         android:paddingTop="15dp"
         android:paddingRight="15dp"
         android:textColor="#ffffffff" />
+    <Button
+        android:id="@+id/sendOnWhatsApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="WhatsApp Order"
+        android:layout_below="@+id/price" />
 </RelativeLayout>
